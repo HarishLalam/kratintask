@@ -25,9 +25,15 @@ body {
     margin-right: 10px;
 }
 
+.name {
+    color: #69065f;
+    font-size: 16px;
+}
+
 .content-center {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     align-items: center;
 }
 
@@ -49,6 +55,7 @@ body {
 
 .remainder {
     color: #086906;
+    margin: 0px;
 }
 
 .header-section {
@@ -180,6 +187,10 @@ body {
 @media screen and (min-width:768px) {
     .title {
         font-size: 48px;
+    }
+
+    .name {
+        font-size: 36px;
     }
 
     .each-section {
