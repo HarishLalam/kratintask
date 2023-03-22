@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/3800a63c59.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light nav-bg">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="https://res.cloudinary.com/dbgrrriyl/image/upload/v1679226689/kratin_logo_oodfp9.jpg" class="logo" />
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ml-auto">
+                    <!-- <a class="nav-link active" id="navItem1" href="#gentleExcercises">
+                        Why Choose Us?
+                        <span class="sr-only">(current)</span>.
+                    </a> -->
+                    <a class="nav-link" href="#gentleExcercises" id="navItem2">Meditation & Gentle Excercises</a>
+                    <a class="nav-link" href="#dietPlan" id="navItem3">Diet</a>
+                    <a class="nav-link" href="#checkYourHealth" id="navItem4">Check Your Health</a>
+                    <a class="nav-link" href="#services" id="navItem4">Services</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="app-container">
+        <h1 class="title">Live A Healthier And Better Life</h1>
+        <div>
+            <h6 class="each-section">Pill Remainder</h6>
+            <div class="content-center">
+                <div class="each-time">
+                    <img class="remainder-img" src="https://res.cloudinary.com/dbgrrriyl/image/upload/v1679491155/morning_xhsjo0.jpg" />
+                    <p>Good Morning</p>
+                    <p class="remainder">Morning Pill Remainder</p>
+                    <p class="remainder">6am to 9am</p>
+                </div>
+                <div class="each-time">
+                    <img class="remainder-img" src="https://res.cloudinary.com/dbgrrriyl/image/upload/v1679491149/afternoon_aqrxxt.jpg" />
+                    <p>Good Afternoon</p>
+                    <p class="remainder">Afternoon Pill Remainder</p>
+                    <p class="remainder">12pm to 2pm</p>
+                </div>
+                <div class="each-time">
+                    <img class="remainder-img" src="https://res.cloudinary.com/dbgrrriyl/image/upload/v1679491150/night_d1dt2z.jpg" />
+                    <p>Good Night</p>
+                    <p class="remainder">Night Pill Remainder</p>
+                    <p class="remainder">7pm to 9pm</p>
+                </div>
+            </div>
+        </div>
+        <div class="gentle-excercises each-feature" id="gentleExcercises">
+            <h6 class="each-section">Meditation and Gentle Excercises</h6>
+            <div class="content-center">
+                <button class="button" id="meditationButton">Meditation</button>
+                <button class="button" id="morningExcercisesButton">Morning Excercises</button>
+                <button class="button" id="eveningExcercisesButton">Evening Excercises</button>
+            </div>
+            <div class="embed-responsive embed-responsive-16by9 d-none" id="meditationVideo">
+                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/s6rXVM8VIWc?rel=0" allowfullscreen></iframe>
+            </div>
+            <div class="embed-responsive embed-responsive-16by9 d-none" id="morningExcercisesVideo">
+                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/E2YqFYFLSbE?rel=0" allowfullscreen></iframe>
+            </div>
+            <div class="embed-responsive embed-responsive-16by9 d-none" id="eveningExcercisesVideo">
+                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/e6QHRS7DR3k?rel=0" allowfullscreen></iframe>
+            </div>
+        </div>
+        <div class="diet-plan each-feature" id="dietPlan">
+            <h6 class="each-section">Diet Plan For Old Age People</h6>
+            <div class="content-center">
+                <button class="button" id="earlyMorningButton">Early-Morning</button>
+                <button class="button" id="breakFastButton">BreakFast</button>
+                <button class="button" id="lunchButton">Lunch</button>
+                <button class="button" id="eveningButton">Evening</button>
+                <button class="button" id="dinnerButton">Dinner</button>
+                <button class="button" id="bedTimeButton">Bed Time</button>
+            </div>
+            <div class="d-none" id="earlyMorning">
+                <p>Luke warm water / soaked almond -5 / 1tsp falx seeds/Bitter gourd juice/Aloe-vera juice/Wheat grass juice</p>
+            </div>
+            <div class="d-none" id="breakFast">
+                <p>Bread toast with egg /Vegetable poha/Vegetable porridge / Vegetable upma / Ragi Cha[athi / Multi grain chapathi + Vegetable/Fresh juice / Egg white</p>
+            </div>
+            <div class="d-none" id="lunch">
+                <p>chapathi / Multi grain chapathi / Brown rice / Veg pulao / Veg + Dal / amaranath dal + Curd /Raita + Salad/ Chicken(Once ina week)</p>
+            </div>
+            <div class="d-none" id="evening">
+                <p>Fruit/Milk shake / Sprouts chat / Riceflakes Sancks / Soup (homemade)/ Roasted makhane / Roasted chickpeas / makhane kheer</p>
+            </div>
+            <div class="d-none" id="dinner">
+                <p>chapathi / Multi grain chapathi / Brown rice / Veg pulao / Veg + Dal + Curd +Salad</p>
+            </div>
+            <div class="d-none" id="bedTime">
+                <p>Milk + a pinch of turmeric</p>
+            </div>
+        </div>
+        <div class="health-check each-feature" id="checkYourHealth">
+            <h6 class="each-section">Check Your Health</h6>
+            <div class="health-sections">
+                <div class="each-check" id="checkBP">
+                    <img id="bp" class="each-check-logo" src="https://res.cloudinary.com/dbgrrriyl/image/upload/v1679481167/images_fs8cb7.png" />
+                    <label class="check-name" for="bp">Check BP</label>
+                </div>
+                <div class="each-check" id="checkSugar">
+                    <img class="each-check-logo" src="https://res.cloudinary.com/dbgrrriyl/image/upload/v1679481408/images_hwiqfc.jpg" />
+                    <p class="check-name">Check Sugar</p>
+                </div>
+                <div class="each-check" id="checkHeartRate">
+                    <img class="each-check-logo" src="https://res.cloudinary.com/dbgrrriyl/image/upload/v1679481585/images_1_c0wjw1.jpg" />
+                    <p class="check-name">Check Heart Rate</p>
+                </div>
+            </div>
+            <div class="bp-ranges d-none" id="bpRanges">
+                <img class="range-logo" src="https://res.cloudinary.com/dbgrrriyl/image/upload/v1679477024/WhatsApp_Image_2023-03-22_at_12.24.19_PM_yynre3.jpg" />
+                <img class="range-logo" src="https://res.cloudinary.com/dbgrrriyl/image/upload/v1679477028/WhatsApp_Image_2023-03-22_at_12.25.44_PM_qaxizv.jpg" />
+                <img class="range-logo" src="https://res.cloudinary.com/dbgrrriyl/image/upload/v1679477027/WhatsApp_Image_2023-03-22_at_12.27.26_PM_n50snd.jpg" />
+                <img class="range-logo" src="https://res.cloudinary.com/dbgrrriyl/image/upload/v1679477026/WhatsApp_Image_2023-03-22_at_12.27.18_PM_xejmyv.jpg" />
+                <img class="range-logo" src="https://res.cloudinary.com/dbgrrriyl/image/upload/v1679477023/WhatsApp_Image_2023-03-22_at_12.28.29_PM_ggqrds.jpg" />
+            </div>
+            <div class="sugar-ranges d-none" id="sugarRanges">
+                <img class="sugar-logo" src="https://res.cloudinary.com/dbgrrriyl/image/upload/v1679477023/WhatsApp_Image_2023-03-22_at_12.33.35_PM_ollrfj.jpg" />
+                <img class="sugar-logo" src="https://res.cloudinary.com/dbgrrriyl/image/upload/v1679477023/WhatsApp_Image_2023-03-22_at_12.34.08_PM_v8yqgy.jpg" />
+                <img class="sugar-logo" src="https://res.cloudinary.com/dbgrrriyl/image/upload/v1679477022/WhatsApp_Image_2023-03-22_at_12.34.23_PM_tmkywc.jpg" />
+                <img class="sugar-logo" src="https://res.cloudinary.com/dbgrrriyl/image/upload/v1679477023/WhatsApp_Image_2023-03-22_at_12.35.01_PM_xfjzox.jpg" />
+            </div>
+            <div class="heart-rate-ranges d-none" id="hearRateRanges">
+                <img class="heart-range-img" src="https://res.cloudinary.com/dbgrrriyl/image/upload/v1679477015/WhatsApp_Image_2023-03-22_at_12.54.26_PM_kzuifu.jpg" />
+            </div>
+        </div>
+        <div class="services each-feature" id="services">
+            <h6 class="each-section">Services</h6>
+            <div class="various-services">
+                <div class="each-service">
+                    <img class="service-logo" src="https://res.cloudinary.com/dbgrrriyl/image/upload/v1679484026/doctor_y0t3q0.png" />
+                    <p class="service-title">Doctor</p>
+                    <a href="https://www.1mg.com/online-doctor-consultation" target="_blank"><button class="service-button">Book Now</button></a>
+                </div>
+                <div class="each-service">
+                    <img class="service-logo" src="https://res.cloudinary.com/dbgrrriyl/image/upload/v1679484026/nurse_c09zda.jpg" />
+                    <p class="service-title">Nurse</p>
+                    <a href="https://apollohomecare.com/nurse-at-home/" target="_blank">
+                        <button class="service-button">Book Now</button>
+                    </a>
+                </div>
+                <div class="each-service">
+                    <img class="service-logo" src="https://res.cloudinary.com/dbgrrriyl/image/upload/v1679484027/physio_vu4hei.jpg" />
+                    <p class="service-title">Physio</p>
+                    <a href="https://apollohomecare.com/Physiotherapy/" target="_blank"><button class="service-button">Book Now</button></a>
+                </div>
+                <div class="each-service">
+                    <img class="service-logo" src="https://res.cloudinary.com/dbgrrriyl/image/upload/v1679484026/lab_zlpi1d.jpg" />
+                    <p class="service-title">Tests</p>
+                    <a href="https://www.1mg.com/labs" target="_blank"><button class="service-button">Book Now</button></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
